@@ -21,10 +21,11 @@ group :development, :test do
   gem "rspec-rails", "~> 3.6", ">= 3.5.2"
 end
 
-group :development, :test do
+group :test do
   gem "capybara", "~> 2.13.0"
   gem "launchy", "~> 2.4", ">= 2.4.3"
   gem "shoulda-matchers", "~> 3.1", ">= 3.1.1"
+  gem "database_cleaner"
 end
 
 group :development do
